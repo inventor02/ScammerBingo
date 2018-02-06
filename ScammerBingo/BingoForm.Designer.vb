@@ -86,7 +86,7 @@ Partial Class BingoForm
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl + Q"
+        Me.ExitToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(194, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
@@ -396,6 +396,8 @@ Partial Class BingoForm
         Me.Controls.Add(Me.ResetGroupBox)
         Me.Controls.Add(Me.BoardGroupBox)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "BingoForm"
         Me.Text = "Scammer Bingo"
         Me.MenuStrip1.ResumeLayout(False)
