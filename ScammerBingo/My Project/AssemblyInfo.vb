@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("ScammerBingo")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("ScammerBingo")>
-<Assembly: AssemblyCopyright("Copyright ©  2018")>
+<Assembly: AssemblyTitle("Scammer Bingo")>
+<Assembly: AssemblyDescription("A fun game for tech support scambaiters.")>
+<Assembly: AssemblyCompany("George Peppard")>
+<Assembly: AssemblyProduct("Scammer Bingo")>
+<Assembly: AssemblyCopyright("Copyright © George Peppard 2018")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>

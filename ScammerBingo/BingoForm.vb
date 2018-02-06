@@ -72,4 +72,9 @@ Public Class BingoForm
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
         Me.Close()
     End Sub
+
+    Private Sub AboutScammerBingoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutScammerBingoToolStripMenuItem.Click
+        Dim form As AboutForm = New AboutForm()
+        form.Show()
+    End Sub
 End Class

@@ -117,21 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Scammer Bingo is a fun game for tech support scambaiters.
-
-The concept is simple - every time the scammer says or does something on the board, you click the button and score a point. When you've won (or got bored!),  you can either give yourself up - or you can carry on! Scammer Bingo is an awesome way to have fun - whilst wasting some scammers' time that they could spend scamming real people.
-
-Please be wary - do not give any personal details to these scammers and CERTAINLY don't PAY for any of the services, whatever you do. Stay safe!</value>
-  </data>
-  <data name="RichTextBox2.Text" xml:space="preserve">
-    <value>Scammer Bingo
-Copyright (C) 2018 George Peppard
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</value>
-  </data>
 </root>
