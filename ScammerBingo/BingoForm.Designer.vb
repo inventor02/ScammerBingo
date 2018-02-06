@@ -22,6 +22,7 @@ Partial Class BingoForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BingoForm))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ScammerBingoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutScammerBingoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -127,7 +128,7 @@ Partial Class BingoForm
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(126, 74)
         Me.Button16.TabIndex = 19
-        Me.Button16.Text = "They know..."
+        Me.Button16.Text = "Hacked IP"
         Me.Button16.UseVisualStyleBackColor = True
         '
         'Button17
@@ -287,7 +288,7 @@ Partial Class BingoForm
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(126, 74)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Hackers!"
+        Me.Button4.Text = "iexplore"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
@@ -397,6 +398,7 @@ Partial Class BingoForm
         Me.Controls.Add(Me.BoardGroupBox)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "BingoForm"
         Me.Text = "Scammer Bingo"

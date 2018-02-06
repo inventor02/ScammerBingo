@@ -11,6 +11,11 @@ Public Class BingoForm
         score = score + 1
 
         SetScore(score)
+
+        If score >= 20 Then
+            Dim form As WinForm = New WinForm()
+            form.Show()
+        End If
     End Sub
 
     Async Sub UpdateApp()
